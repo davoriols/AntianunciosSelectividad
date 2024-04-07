@@ -2,22 +2,25 @@
 var style = document.createElement('style');
 style.innerHTML = `
 text.font-rubik{
-font-size: 0;
+  font-size: 0;
 }
 
 .v-window__container {
-width: 0;
+  display: none;
+}
 
+/* Carroussell con las libretas */
 .mt-6.problem-card.v-card.v-sheet.theme--light {
-    position: absolute;
-    left: 10000px;
+    display: none;
 }
 
-.my-2.rounded-lg.v-card.v-card--flat.v-sheet.theme--light.transparent {
-    position: absolute;
-}
 
 `;
+
+//.mt-6.problem-card.v-card.v-sheet.theme--light {
+//    position: absolute !important;
+//    left: 10000px !important;
+//}
 
 
 
