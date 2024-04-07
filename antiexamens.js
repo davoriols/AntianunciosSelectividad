@@ -4,7 +4,21 @@ style.innerHTML = `
 text.font-rubik{
 font-size: 0;
 }
+
+.v-window__container {
+width: 0;
+
+.mt-6.problem-card.v-card.v-sheet.theme--light {
+    position: absolute;
+    left: 10000px;
+}
+
+.my-2.rounded-lg.v-card.v-card--flat.v-sheet.theme--light.transparent {
+    position: absolute;
+}
+
 `;
+
 
 
 // Codigo para seleccionar elementos html cuando existan
