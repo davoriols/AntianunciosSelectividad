@@ -14,6 +14,11 @@ text.font-rubik{
     display: none;
 }
 
+/* Anuncio de que no salgan más anuncios */
+.v-image.v-responsive.rounded-lg.mt-5.theme--light {
+    display: none;
+}
+
 
 `;
 
