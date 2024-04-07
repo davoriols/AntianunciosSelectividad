@@ -17,6 +17,7 @@ text.font-rubik{
     display: none;
 }
 
+/* Carroussell con las libretas */
 .slide-suggested.py-5.prevent-select.mt-6.v-item-group.theme--light.v-slide-group.v-slide-group--has-affixes.v-slide-group--is-overflowing{
     display: none;
 
@@ -29,22 +30,14 @@ text.font-rubik{
 
 /* Anuncio de libretas que sale cuando seleccionas exámenes */
 .align-center.rounded-lg.my-6.v-card.v-card--flat.v-card--link.v-sheet.theme--light.d-flex.pa-6 {
-  display: none;
-  position: absolute;
-  left: 100000px;
+  display: none !important;
 }
 
 `;
 
-//.mt-6.problem-card.v-card.v-sheet.theme--light {
-//    position: absolute !important;
-//    left: 10000px !important;
-//}
 
-
-
-// Codigo para seleccionar elementos html cuando existan
-// No me acuerdo de donde lo he copiado
+// Código para seleccionar elementos html cuando existan
+// No me acuerdo de dónde lo he copiado
 document.head.appendChild(style);
 
 function waitForElementToExist(selector) {
@@ -67,8 +60,8 @@ function waitForElementToExist(selector) {
   });
 }
 
-// Usar la funcion de antes para seleccionar el 
-// input para hacer la promo
+// Usar la función de antes para seleccionar el 
+// input para hacer la promo B)
 waitForElementToExist('label').then(element => {
   element.innerHTML = "antianuncios por David O";
   console.log('The element exists', element);
