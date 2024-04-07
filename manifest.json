@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "Antianuncios selectivitat",
-  "version": "1.4",
+  "version": "1.5",
 
-  "description": "Elimina la marca de agua de los ejercicios en examenselectivitat.cat",
+  "description": "Elimina la marca de agua de los ejercicios en examenselectivitat.cat y otros anuncios de la web",
 
 
   "content_scripts": [
