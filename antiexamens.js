@@ -35,7 +35,6 @@ text.font-rubik{
 
 `;
 
-
 // Código para seleccionar elementos html cuando existan
 // No me acuerdo de dónde lo he copiado
 document.head.appendChild(style);
